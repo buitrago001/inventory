@@ -1,0 +1,136 @@
+
+/* navbar style*/
+
+.container nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+a:hover{
+    text-decoration: underline;;
+}
+
+i{
+    font-size: 30px;
+    
+}
+
+/*
+todo: set login /signup static 
+*/
+
+.navbar{
+    display: flex;
+    float: right;
+}
+
+.container nav ul li { 
+    display: inline;
+    cursor: pointer;
+    height: auto;
+}
+
+#userImage {
+    padding: 14px 16px;
+}
+
+
+/* logo style */
+
+.LogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightgray;
+    width: 100%;
+    padding: 0;
+
+}
+
+.LogoContainer img{
+    height: 200px;
+}
+
+/* main */
+
+main{
+    margin: 0 150px 0 150px;
+}
+
+main header h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+}
+
+main article
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.article_container{
+    display: block;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+/*
+ todo: update image style using the class and not the path
+*/
+
+.newImageContainer{
+    display: block;
+    margin-right: 30px;
+}
+
+.newImageContainer img{
+    width: 470px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.newTextContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* footer style */
+
+/*
+todo: 1) adjust box heigh
+todo: 2) columns grid (2x3)
+*/
+.footer-wrapper ul{ 
+    bottom: 0%;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border-top: 2px solid lightgray;;
+}
+
+.footer-wrapper ul li{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+} 
